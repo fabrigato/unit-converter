@@ -1,0 +1,122 @@
+body {
+    margin: 0 ;
+    text-align: center;
+    width: 550px;
+    height: 729px;
+    background: #B295FF
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+    height: 750px;
+    
+    
+    
+    
+}
+
+.main{
+    background: #6943FF;
+    width: 550px;
+    height: 300px;
+}
+
+.heading{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.84px;
+    
+}
+
+#input{
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    color: #FFF;
+    background: #6943FF;
+    font-family: 'Inter', sans-serif;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 24.393px;
+    width: 117px;
+    height: 83px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 36px;
+}
+
+#convert-btn {
+    display: block;
+    margin: 0 auto;
+    color: #3D3D3D;
+    padding: 9px 27.5px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.converters{
+    background: #1F2937;
+    
+}
+
+.length, .volume, .mass{ 
+    border-radius: 4.681px 0px 0px 0px;
+    background: #273549;
+    width: 500px;
+    height: 109px;
+    margin: 36px 25px 24px 25px;
+    color: #CCC1FF;
+    text-align: center;
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    
+    
+    
+}
+     
+.length-title,.mass-title,.volume-title{
+    width: 346px;
+    height: 25px;
+    color: #CCC1FF;
+    text-align: center;
+    font-family: "Inter",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 31px;
+    padding-right: 77px;
+    padding-left: 77px;
+    margin-bottom: 9px;
+}
+
+#length-converter, #volume-converter, #mass-converter{
+    display: inlineflex;
+    width: 346px;
+    height: 25px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 77px;
+    margin-top: 9px;
+    
+    
+    
+
+}
